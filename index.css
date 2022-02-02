@@ -1,0 +1,18 @@
+header, #first {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 20px;
+    text-shadow: 10cm;
+    text-decoration: underline;
+}
+
+p, li {
+    font-size: 16px;
+}
