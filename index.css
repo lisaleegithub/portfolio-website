@@ -1,5 +1,11 @@
-header, .first {
+header {
+    display: block;
     font-family: 'Montserrat', sans-serif;
+}
+
+.first, .second {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
 }
 
 h1 {
