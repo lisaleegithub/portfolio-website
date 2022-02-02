@@ -34,3 +34,10 @@ img {
     padding: 2px;
     margin-left: 20px;
 }
+
+/* remove bullets */
+ul {
+    list-style-type: none;
+    padding: 0px; 
+    margin: 0px; 
+  }
