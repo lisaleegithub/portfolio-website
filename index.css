@@ -1,4 +1,10 @@
 
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    background: white;
+    width: auto;
+}
+
 header {
     display: block;
     font-family: 'Montserrat', sans-serif;
@@ -9,7 +15,6 @@ header {
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
     margin-left: 20px;
-
 }
 
 h1 {
@@ -41,3 +46,14 @@ ul {
     padding: 0px; 
     margin: 0px; 
   }
+
+  /* @media screen and (max-width: 500px) {
+    .navbar {
+      float: none;
+      display: block;
+    }
+  }   */
+
+body {
+    background: linear-gradient(90deg, rgba(184,143,187,1) 0%, rgba(223,199,237,1) 32%, rgba(215,203,224,1) 67%, rgba(255,217,195,1) 100%);
+}
