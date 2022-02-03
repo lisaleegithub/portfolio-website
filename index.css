@@ -1,20 +1,25 @@
 
-.navbar {
+body {
     font-family: 'Montserrat', sans-serif;
+    background: url(https://wallpaperaccess.com/full/498960.jpg) black;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;   
+    
+}
+
+.navbar {
     background: white;
     width: auto;
 }
-/* #hobbies {
-    background-color: red;
-} */
+
 header {
     display: block;
-    font-family: 'Montserrat', sans-serif;
     margin-left: 20px;
+    color: white;
 }
 
 .column {
-    font-family: 'Montserrat', sans-serif;
     display: inline-block;
     margin-left: 20px;
 }
@@ -29,15 +34,24 @@ h2 {
     font-size: 20px;
     text-shadow: 10cm;
     text-decoration: underline;
+    color: black;
 }
 
-p, li {
+h3 {
+    color: white;
+    font-size: 14px;
+    display: block;
+    margin-left: 70px;
+}
+
+li {
     font-size: 16px;
+    color: black;
 }
 
 img {
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 2px;
     margin-left: 20px; 
     display: block;
@@ -50,14 +64,29 @@ ul {
     margin: 0px; 
   }
 
+/* make boxes transparent */
+div.column {
+    padding: 10px;
+    text-align: justify; 
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+/* using ID
+#hobbies { 
+    background-color: red;
+} */
+/* @media (max-width: 480px) {
+    body {
+        background-image: url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80://images.unsplash.com/photo-1502679726485-931beda67f88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80://images.unsplash.com/photo-1534254910684-68bdc1d69cf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
+    }
+} */
+
   /* @media screen and (max-width: 500px) {
     .navbar {
       float: none;
       display: block;
     }
   }   */
-
-body {
-    background: linear-gradient(90deg, rgba(184,143,187,1) 0%, rgba(223,199,237,1) 32%, rgba(215,203,224,1) 67%, rgba(255,217,195,1) 100%);
-}
-
+    /* background: url(https://images.hdqwalls.com/download/milky-way-sky-4k-47-1280x720.jpg) black; */
+    /* background: url(https://images.hdqwalls.com/download/digital-universe-galaxy-1280x720.jpg) black; */
