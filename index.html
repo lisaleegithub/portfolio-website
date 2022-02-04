@@ -25,27 +25,23 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <!-- <a class="nav-item nav-link" href="#hobbies">Hobbies</a> -->
                     <a class="nav-item nav-link" href="https://www.linkedin.com/in/lisaleeseattle/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a class="nav-item nav-link" href="https://github.com/lisaleegithub" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a class="nav-item nav-link" href="#form">Contact Form</a>
                   </div>
                 </div>
               </nav>
         </div>
 
-        <!-- all my HTML body inside of container -->
         <header>
             <h1>Hi, my name is Lisa.</h1>
-            <!-- need to add more to description about me -->
                 <p class="description"> Welcome to my page! I am a Software Engineer in Training at Techtonica.<br>
-                Talk about myself here later. <br>
+                <img src="https://media-exp1.licdn.com/dms/image/C5603AQGSYHJ6RB8ecA/profile-displayphoto-shrink_800_800/0/1643867294818?e=1649289600&v=beta&t=0E_oLdazIRNt257pg9PmF6PQ4Vq5fNbDbBnsxgaZo-8" width="250" height="250" alt="Lisa Lee">
+                📍 Seattle, WA, USA<br>
+                👩🏻 Pronouns(She/Her)<br>
+                📧 lisawlee04@gmail.com<br>
                 </p>
         </header>
-
-        <!-- <div id="photo"> -->
-            <img src="https://media-exp1.licdn.com/dms/image/C5603AQGSYHJ6RB8ecA/profile-displayphoto-shrink_800_800/0/1643867294818?e=1649289600&v=beta&t=0E_oLdazIRNt257pg9PmF6PQ4Vq5fNbDbBnsxgaZo-8" width="250" height="250" alt="Lisa Lee">
-            <h3>Pronouns (She/Her) </h3> 
-            <!-- </div> -->
 
         <div class="column">
             <h2> Skills: </h2>
@@ -65,5 +61,25 @@
                 <li>🎨 Coloring Book</li>
             </ul>
         </div>
+
+        <div class="box">
+        <form id="form">
+            <h2>Contact Form</h2>
+            <form>  
+                <p><label for="name">Your Name*:</label>
+                <input type="text" id="name" name="name" required></p>
+                <p><label for="email">Your Email*:</label>
+                <input type="email" id="email" name="email" required></p>
+                <p><label for="phone"><span>Your Phone Number:</label>
+                <input type="tel" id="phone" name="phone"></p>
+                <p><label for="address">Your Address:</label>
+                <input type="text" id="address" name="address"></p>
+                <p>* Required fields</p>
+                <p><input type="submit" value="Send"></p>
+            </form>
+        </form>
+        </div>
+
     </body>
+    <script src="script.js"></script>
 </html>

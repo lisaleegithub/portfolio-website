@@ -4,13 +4,15 @@ body {
     background: url(https://wallpaperaccess.com/full/498960.jpg) black;
     background-position: center center;
     background-attachment: fixed;
-    background-repeat: no-repeat; background-size: cover;   
-    
+    background-repeat: no-repeat; 
+    background-size: cover;   
+    color: white;
 }
 
 .navbar {
     background: white;
     width: auto;
+    
 }
 
 header {
@@ -26,8 +28,7 @@ header {
 
 h1 {
     font-size: 48px;
-    font-weight: 800;
-    
+    font-weight: 800px;
 }
 
 h2 {
@@ -38,7 +39,6 @@ h2 {
 }
 
 h3 {
-    color: white;
     font-size: 14px;
     display: block;
     margin-left: 70px;
@@ -49,12 +49,18 @@ li {
     color: black;
 }
 
+div p {
+    font-size: 14px;
+    color: black;
+}
+
 img {
     border-radius: 50%;
     border: 2px solid white;
-    padding: 2px;
-    margin-left: 20px; 
+    padding: 2px; 
     display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* remove bullets */
@@ -64,18 +70,46 @@ ul {
     margin: 0px; 
   }
 
-/* make boxes transparent */
+/* make div columns transparent */
 div.column {
     padding: 10px;
     text-align: justify; 
     background: rgba(255, 255, 255, 0.6);
+    margin: 10px;
+    width: 400px;
 }
 
+/* contact me box formatting */
+.box {
+    padding: 10px;
+    text-align: justify; 
+    background: rgba(255, 255, 255, 0.6);
+    margin: 10px;
+    width: 400px;
+}
 
-/* using ID
-#hobbies { 
-    background-color: red;
-} */
+/* contact form input box formatting */
+input {
+    width: 200px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* style send button */
+  input[type=submit] {
+    width: 100px;
+    /* position: absolute; */
+    background: linear-gradient(to bottom,lavender, purple);
+    color: #fff;
+    height: 30px;
+    /* -webkit-border-radius: 15px;
+    -moz-border-radius: 15px; */
+    border-radius: 15px;
+    border: 1px solid #999;
+  }
+
+
 /* @media (max-width: 480px) {
     body {
         background-image: url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80://images.unsplash.com/photo-1502679726485-931beda67f88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80://images.unsplash.com/photo-1534254910684-68bdc1d69cf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
