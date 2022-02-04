@@ -1,60 +1,54 @@
 
 body {
-    font-family: 'Fira Mono', monospace;
+    font-family: 'PT Mono', monospace;
     background: url(https://wallpaperaccess.com/full/498960.jpg) black;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover;   
     color: white;
+    /* margin: 0px 20px; */
 }
 
 .navbar {
     background: white;
-    width: auto;
-    
+    width: 100%;
 }
 
 header {
     display: block;
-    margin-left: 20px;
-    color: white;
+    width: auto;
+    text-align: center;
+    /* font-size: 20px;  */
 }
 
-.column {
-    display: inline-block;
-    margin-left: 20px;
-}
 
 h1 {
     font-size: 48px;
-    font-weight: 800px;
+    color: #b3ccff;
+    margin-top: 30px;
 }
-
-h2 {
-    font-size: 20px;
-    text-shadow: 10cm;
-    text-decoration: underline;
-    color: black;
+.intro p {
+    color: #b3ccff;
+    font-size: 24px;
+    text-align: justify;
 }
-
-h3 {
-    font-size: 14px;
-    display: block;
-    margin-left: 70px;
+.about {
+    color: #ffe083;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
 }
-
-li {
-    font-size: 16px;
-    color: black;
-}
-
-div p {
-    font-size: 14px;
-    color: black;
+a {
+    text-decoration: none;
+    color: #ffe083;
 }
 
 img {
+    display: inline-block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
     border: 2px solid white;
     padding: 2px; 
@@ -62,35 +56,60 @@ img {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+.description {
+    color: #b3ccff;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    width: auto;
+}
 
+.column {
+    display: inline-block;
+}
+h2 {
+    font-size: 24px;
+    color: #ff8973;
+}
+li {
+    font-size: 24px;
+    color: #b3ccff;
+    margin-left: 10px;
+}
 /* remove bullets */
 ul {
     list-style-type: none;
     padding: 0px; 
     margin: 0px; 
-  }
-
+}
+/* contact form label font */
+div p {
+    font-size: 18px;
+    color: #b3ccff;
+}
 /* make div columns transparent */
 div.column {
     padding: 10px;
-    text-align: justify; 
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     margin: 10px;
     width: 400px;
+    height: 300px;
 }
 
 /* contact me box formatting */
 .box {
     padding: 10px;
-    text-align: justify; 
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     margin: 10px;
-    width: 400px;
+    width: 500px;
 }
 
 /* contact form input box formatting */
 input {
-    width: 200px;
+    width: 200x;
     padding: 1px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -99,28 +118,66 @@ input {
 /* style send button */
   input[type=submit] {
     width: 100px;
-    /* position: absolute; */
     background: linear-gradient(to bottom,lavender, purple);
     color: #fff;
     height: 30px;
-    /* -webkit-border-radius: 15px;
-    -moz-border-radius: 15px; */
     border-radius: 15px;
     border: 1px solid #999;
   }
 
+/* --------------------------OK above */
 
-/* @media (max-width: 480px) {
-    body {
-        background-image: url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80://images.unsplash.com/photo-1502679726485-931beda67f88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80://images.unsplash.com/photo-1534254910684-68bdc1d69cf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
-    }
+/* header p {
+    font-size: 20px;
+    width: auto;
 } */
 
-  /* @media screen and (max-width: 500px) {
+/* .description, p.hello{
+    float: left;
+    width: auto;
+    
+} */
+
+/* h3 {
+    font-size: 14px;
+    display: block;
+    margin-left: 70px;
+} */
+
+
+/* media query at  */
+@media screen and (max-width: 320px) {
     .navbar {
-      float: none;
-      display: block;
+        width: auto;
     }
-  }   */
-    /* background: url(https://images.hdqwalls.com/download/milky-way-sky-4k-47-1280x720.jpg) black; */
-    /* background: url(https://images.hdqwalls.com/download/digital-universe-galaxy-1280x720.jpg) black; */
+    header h1 {
+        margin-top: 10px;
+        width: auto;
+        font-size: 20px;    
+    }
+    header p {
+        width: auto;
+        font-size: 13px;
+        text-align: justify;
+    }
+    div.column p, h2, li, .box p {
+        width: auto;
+        font-size: 14px;
+    }
+    div.column, .box {
+        height: 170px;
+    }
+    input {
+        width: 130px;
+    }
+}
+
+/* @media screen and (min-width: 481px) {
+}
+   
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (min-width: 1025px) {
+}  */
+

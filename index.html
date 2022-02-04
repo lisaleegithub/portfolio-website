@@ -8,13 +8,13 @@
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family==PT+Mono&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="index.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
-    <body>   
+    <body>  
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand text-uppercase" href="#">Lisa Lee</a>
@@ -27,44 +27,60 @@
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="https://www.linkedin.com/in/lisaleeseattle/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a class="nav-item nav-link" href="https://github.com/lisaleegithub" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    <a class="nav-item nav-link" href="#form">Contact Form</a>
+                    <a class="nav-item nav-link" href="#form">ContactForm</a>
                   </div>
                 </div>
               </nav>
         </div>
 
         <header>
-            <h1>Hi, my name is Lisa.</h1>
-                <p class="description"> Welcome to my page! I am a Software Engineer in Training at Techtonica.<br>
-                <img src="https://media-exp1.licdn.com/dms/image/C5603AQGSYHJ6RB8ecA/profile-displayphoto-shrink_800_800/0/1643867294818?e=1649289600&v=beta&t=0E_oLdazIRNt257pg9PmF6PQ4Vq5fNbDbBnsxgaZo-8" width="250" height="250" alt="Lisa Lee">
+            <h1><strong>Hi, my name is Lisa :)</strong></h1>
+
+            <div class="intro">
+                <p>Welcome to my SPACE! I am a Software Engineer in Training at Techtonica.
+                    I believe in lifelong learning and can't wait to see what the future holds for me.</p><br>
+            </div>
+                
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQGSYHJ6RB8ecA/profile-displayphoto-shrink_800_800/0/1643867294818?e=1649289600&v=beta&t=0E_oLdazIRNt257pg9PmF6PQ4Vq5fNbDbBnsxgaZo-8" width="250" height="250" alt="Lisa Lee">
+            
+            <div class="about">
                 📍 Seattle, WA, USA<br>
-                👩🏻 Pronouns(She/Her)<br>
-                📧 lisawlee04@gmail.com<br>
-                </p>
+                👩🏻 Pronouns (She/Her)<br>
+                📧 <a href = "mailto: lisawlee04@gmail.com" class="email">Send Email</a><br>
+            </div>
+                
+            <div class="description">
+            Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall. Ministry-of-Magic mimubulus mimbletonia Pigwidgeon knut phoenix feather other minister Azkaban. Hedwig Daily Prophet treacle tart full-moon Ollivanders You-Know-Who cursed. Fawkes maze raw-steak Voldemort Goblin Wars snitch Forbidden forest grindylows wool socks.
+            </div>
         </header>
 
+
         <div class="column">
-            <h2> Skills: </h2>
+            <h2><strong>Skills:</strong></h2>
             <ul>
                 <li>👩🏻‍💻 JavaScript</li>
+                <li>👩🏻‍💻 HTML</li>
+                <li>👩🏻‍💻 CSS</li>
+                <li>👩🏻‍💻 MS Excel</li>
+                <li>👩🏻‍💻 MS Access</li>
                 <li>👩🏻‍💻 Python</li>
-                <li>👩🏻‍💻 Data Extraction</li>
-                <li>👩🏻‍💻 Financial Reporting & Analysis</li>
         </div>
 
         <div class="column" id="hobbies">
-            <h2> Hobbies: </h2>
+            <h2><strong>Hobbies:</strong></h2>
             <ul>
                 <li>🥣 Cooking</li>
                 <li>⛰ Hiking</li>
                 <li>🔭 Stargazing</li>
                 <li>🎨 Coloring Book</li>
+                <li>🪡 French Embroidery</li>
+                <li>⛳ Golfing</li>
             </ul>
         </div>
 
         <div class="box">
         <form id="form">
-            <h2>Contact Form</h2>
+            <h2><strong>Contact Form</strong></h2>
             <form>  
                 <p><label for="name">Your Name*:</label>
                 <input type="text" id="name" name="name" required></p>
@@ -79,6 +95,7 @@
             </form>
         </form>
         </div>
+
 
     </body>
     <script src="script.js"></script>
